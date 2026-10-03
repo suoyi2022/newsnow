@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="小毒舌记账图形标">
+  <defs>
+    <linearGradient id="bg" x1="124" y1="90" x2="900" y2="936" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0569EA"/><stop offset="1" stop-color="#22BDF4"/>
+    </linearGradient>
+    <linearGradient id="tongue" x1="490" y1="570" x2="694" y2="765" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6F8F"/><stop offset="1" stop-color="#FF3D69"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="228" fill="url(#bg)"/>
+  <circle cx="171" cy="177" r="75" fill="#FFF" fill-opacity=".09"/>
+  <circle cx="861" cy="742" r="130" fill="#FFF" fill-opacity=".08"/>
+  <path d="M238 126H786C838 126 880 168 880 220V675C880 727 838 769 786 769H693L626 862L558 769H238C186 769 144 727 144 675V220C144 168 186 126 238 126Z" fill="#FFF"/>
+  <path d="M212 126H812" stroke="#BCEBFF" stroke-width="20" stroke-linecap="round"/>
+  <path d="M286 340L442 299" stroke="#122650" stroke-width="34" stroke-linecap="round"/>
+  <path d="M575 302C628 273 697 282 736 327" fill="none" stroke="#122650" stroke-width="34" stroke-linecap="round"/>
+  <ellipse cx="374" cy="405" rx="62" ry="42" fill="#122650"/>
+  <circle cx="398" cy="407" r="17" fill="#53DAFF"/>
+  <path d="M584 408C629 383 681 388 720 421" fill="none" stroke="#122650" stroke-width="35" stroke-linecap="round"/>
+  <path d="M316 531C404 595 608 602 724 520C710 674 613 742 511 737C404 732 330 659 316 531Z" fill="#122650"/>
+  <path d="M474 617C534 616 596 630 663 677C627 735 574 765 516 760C454 755 409 722 389 676C416 641 442 619 474 617Z" fill="url(#tongue)"/>
+  <path d="M514 692L557 727L647 636" fill="none" stroke="#FFF" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -34,15 +34,18 @@ export const columns = {
 } as const
 
 const updatedSourceIds = [..._updatedSourceIds] as SourceID[]
+const featuredSourceIds: SourceID[] = ["gxddc"]
 
 export const fixedColumnIds = ["focus", "hottest", "realtime", "updated"] as const satisfies Partial<ColumnID>[]
 export const hiddenColumns = Object.keys(columns).filter(id => !fixedColumnIds.includes(id as any)) as HiddenColumnID[]
 
 function getSortedSourceIds(type: "hottest" | "realtime") {
-  return typeSafeObjectEntries(sources)
+  const sorted = typeSafeObjectEntries(sources)
     .filter(([, v]) => v.type === type && !v.redirect)
     .map(([k]) => k)
     .sort((m, n) => m.localeCompare(n))
+  const featured = featuredSourceIds.filter(id => sorted.includes(id))
+  return [...featured, ...sorted.filter(id => !featured.includes(id))]
 }
 
 export const metadata: Metadata = typeSafeObjectFromEntries(typeSafeObjectEntries(columns).map(([k, v]) => {

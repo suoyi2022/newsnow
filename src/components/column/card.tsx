@@ -6,6 +6,8 @@ import { forwardRef, useImperativeHandle } from "react"
 import { OverlayScrollbar } from "../common/overlay-scrollbar"
 import { safeParseString } from "~/utils"
 
+const RETAINED_SOURCE = "gxddc" as SourceID
+
 export interface ItemsProps extends React.HTMLAttributes<HTMLDivElement> {
   id: SourceID
   /**
@@ -56,6 +58,11 @@ function NewsCard({ id, setHandleRef }: NewsCardProps) {
     queryKey: ["source", id],
     queryFn: async ({ queryKey }) => {
       const id = queryKey[1] as SourceID
+      const storageKey = `newsnow:source:${id}`
+      const stored = id === RETAINED_SOURCE
+        ? safeParseString(localStorage.getItem(storageKey)) as SourceResponse | null
+        : null
+      const previous = cacheSources.get(id) ?? (stored?.items?.length ? stored : undefined)
       let url = `/s?id=${id}`
       const headers: Record<string, any> = {}
       if (refetchSources.has(id)) {
@@ -69,9 +76,18 @@ function NewsCard({ id, setHandleRef }: NewsCardProps) {
         return cacheSources.get(id)
       }
 
-      const response: SourceResponse = await myFetch(url, {
-        headers,
-      })
+      let response: SourceResponse
+      try {
+        response = await myFetch(url, { headers })
+      } catch (error) {
+        if (previous?.items?.length) return previous
+        throw error
+      }
+
+      if (!response?.items?.length) {
+        if (previous?.items?.length) return previous
+        throw new Error(`Empty source response: ${id}`)
+      }
 
       function diff() {
         try {
@@ -92,6 +108,13 @@ function NewsCard({ id, setHandleRef }: NewsCardProps) {
       diff()
 
       cacheSources.set(id, response)
+      if (id === RETAINED_SOURCE) {
+        try {
+          localStorage.setItem(storageKey, JSON.stringify(response))
+        } catch {
+          // The in-memory cache still preserves the current session.
+        }
+      }
       return response
     },
     placeholderData: prev => prev,
@@ -133,11 +156,15 @@ function NewsCard({ id, setHandleRef }: NewsCardProps) {
         <div className={$("flex gap-2 text-lg", `color-${sources[id].color}`)}>
           <button
             type="button"
+            aria-label={`刷新${sources[id].name}`}
+            title={`刷新${sources[id].name}`}
             className={$("btn i-ph:arrow-counter-clockwise-duotone", isFetching && "animate-spin i-ph:circle-dashed-duotone")}
             onClick={() => refresh(id)}
           />
           <button
             type="button"
+            aria-label={isFocused ? `取消关注${sources[id].name}` : `关注${sources[id].name}`}
+            title={isFocused ? `取消关注${sources[id].name}` : `关注${sources[id].name}`}
             className={$("btn", isFocused ? "i-ph:star-fill" : "i-ph:star-duotone")}
             onClick={toggleFocus}
           />
@@ -145,6 +172,9 @@ function NewsCard({ id, setHandleRef }: NewsCardProps) {
           {setHandleRef && (
             <div
               ref={setHandleRef}
+              role="button"
+              aria-label={`拖动${sources[id].name}`}
+              tabIndex={0}
               className={$("btn", "i-ph:dots-six-vertical-duotone", "cursor-grab")}
             />
           )}
@@ -164,6 +194,12 @@ function NewsCard({ id, setHandleRef }: NewsCardProps) {
       >
         <div className={$("transition-opacity-500", isFetching && "op-20")}>
           {!!data?.items?.length && (sources[id].type === "hottest" ? <NewsListHot items={data.items} /> : <NewsListTimeLine items={data.items} />)}
+          {!data?.items?.length && (
+            <div className="grid h-full min-h-72 place-content-center gap-2 px-6 text-center text-sm op-70">
+              <span className="i-ph:spinner-gap-duotone mx-auto text-2xl animate-spin" aria-hidden="true" />
+              <span>资讯加载中，品牌推荐仍在继续轮播</span>
+            </div>
+          )}
         </div>
       </OverlayScrollbar>
     </>

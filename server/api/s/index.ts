@@ -5,8 +5,8 @@ import type { CacheInfo } from "#/types"
 
 const info = {
   LICENCE: "MIT",
-  Github: "https://github.com/ourongxing/newsnow",
-  Sponsorship: "If you rely on this service, sponsorship is welcome to help it run for the long term. Scan the QR code https://raw.githubusercontent.com/ourongxing/newsnow/main/screenshots/reward.gif",
+  Github: "https://github.com/suoyi2022/newsnow",
+  Sponsorship: "Project homepage: https://github.com/suoyi2022/newsnow",
 }
 
 export default defineEventHandler(async (event): Promise<SourceResponse> => {

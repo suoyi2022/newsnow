@@ -41,13 +41,9 @@ function RootComponent() {
       >
         <header
           className={$([
-            "grid items-center py-4 px-5",
-            "lg:(py-6)",
+            "site-header grid items-center py-4 px-5",
             "sticky top-0 z-10 backdrop-blur-md",
           ])}
-          style={{
-            gridTemplateColumns: "50px auto 50px",
-          }}
         >
           <Header />
         </header>

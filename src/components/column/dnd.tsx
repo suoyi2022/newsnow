@@ -14,6 +14,7 @@ import { useSortable } from "../common/dnd/useSortable"
 import { OverlayScrollbar } from "../common/overlay-scrollbar"
 import type { ItemsProps } from "./card"
 import { CardWrapper } from "./card"
+import { FeaturedBoard } from "./featured-board"
 import { currentColumnIDAtom, currentSourcesAtom } from "~/atoms"
 
 const AnimationDuration = 200
@@ -31,6 +32,10 @@ export function Dnd() {
   }, [width])
 
   if (!items.length) return null
+
+  if (currentColumnID === "hottest" && items.includes("gxddc" as SourceID)) {
+    return <FeaturedBoard items={items} />
+  }
 
   return (
     <DndWrapper items={items} setItems={setItems} isSingleColumn={isMobile} sortable={sortable}>

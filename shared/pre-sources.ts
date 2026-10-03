@@ -500,6 +500,16 @@ export const originSources = {
       },
     },
   },
+  "gxddc": {
+    name: "共享电单车资讯",
+    title: "关键词资讯",
+    type: "hottest",
+    desc: "来源快而准，资讯易搜集",
+    column: "china",
+    home: "https://news.google.com/",
+    color: "green",
+    interval: Time.Common,
+  },
 } as const satisfies Record<string, OriginSource>
 
 export function genSources() {
