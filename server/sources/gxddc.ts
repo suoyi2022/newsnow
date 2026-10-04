@@ -19,6 +19,8 @@ const materialKeywords = [
   "共享单车投诉",
 ]
 
+const snapshotUrl = "https://raw.githubusercontent.com/suoyi2022/newsnow/main/public/data/gxddc.json"
+
 const queryGroups = Array.from(
   { length: Math.ceil(materialKeywords.length / 6) },
   (_, index) => materialKeywords
@@ -47,13 +49,24 @@ const urls = queryGroups.map((query) => {
 })
 
 export default defineSource(async () => {
-  const feeds = await Promise.allSettled(urls.map(url => rss2json(url)))
-  const items = feeds.flatMap(result => result.status === "fulfilled" ? result.value?.items ?? [] : [])
+  let items: Array<{ title?: string, link?: string, url?: string, created?: string, pubDate?: string }> = []
+
+  try {
+    const snapshot = await myFetch<{ items?: typeof items }>(snapshotUrl, {
+      retry: 1,
+      timeout: 5000,
+    })
+    items = snapshot.items ?? []
+  } catch {
+    const feeds = await Promise.allSettled(urls.map(url => rss2json(url)))
+    items = feeds.flatMap(result => result.status === "fulfilled" ? result.value?.items ?? [] : [])
+  }
+
   if (!items.length) throw new Error("Cannot fetch shared mobility rss data")
 
   const seen = new Set<string>()
   return items
-    .filter(item => item.title && item.link && isRelevantMobilityTitle(item.title))
+    .filter(item => item.title && (item.link || item.url) && isRelevantMobilityTitle(item.title))
     .filter((item) => {
       const fingerprint = item.title.replace(/\s+/g, "").toLocaleLowerCase()
       if (seen.has(fingerprint)) return false
@@ -62,9 +75,9 @@ export default defineSource(async () => {
     })
     .map(item => ({
       title: item.title,
-      url: item.link,
-      id: item.link,
-      pubDate: item.created,
+      url: item.link ?? item.url!,
+      id: item.link ?? item.url!,
+      pubDate: item.created ?? item.pubDate,
     }))
     .sort((a, b) => Date.parse(b.pubDate ?? "") - Date.parse(a.pubDate ?? ""))
 })
