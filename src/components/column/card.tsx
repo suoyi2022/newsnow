@@ -155,6 +155,15 @@ function NewsCard({ id, setHandleRef }: NewsCardProps) {
           </span>
         </div>
         <div className={$("flex gap-2 text-lg", `color-${sources[id].color}`)}>
+          {id === RETAINED_SOURCE && (
+            <a
+              aria-label="订阅共享两轮车资讯 RSS"
+              title="订阅 RSS"
+              className="btn i-ph:rss-simple-duotone"
+              href={assetURL("api/rss/gxddc")}
+              target="_blank"
+            />
+          )}
           <button
             type="button"
             aria-label={`刷新${sources[id].name}`}
