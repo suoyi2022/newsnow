@@ -70,7 +70,7 @@ function NewsCard({ id, setHandleRef }: NewsCardProps) {
         const jwt = safeParseString(localStorage.getItem("jwt"))
         if (jwt) headers.Authorization = `Bearer ${jwt}`
         refetchSources.delete(id)
-      } else if (cacheSources.has(id)) {
+      } else if (cacheSources.has(id) && id !== RETAINED_SOURCE) {
         // wait animation
         await delay(200)
         return cacheSources.get(id)
@@ -118,10 +118,11 @@ function NewsCard({ id, setHandleRef }: NewsCardProps) {
       return response
     },
     placeholderData: prev => prev,
-    staleTime: Infinity,
-    refetchOnMount: false,
-    refetchOnReconnect: false,
-    refetchOnWindowFocus: false,
+    staleTime: id === RETAINED_SOURCE ? 0 : Infinity,
+    refetchInterval: id === RETAINED_SOURCE ? sources[id].interval : false,
+    refetchOnMount: id === RETAINED_SOURCE,
+    refetchOnReconnect: id === RETAINED_SOURCE,
+    refetchOnWindowFocus: id === RETAINED_SOURCE,
     retry: false,
   })
 
