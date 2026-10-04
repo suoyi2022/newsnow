@@ -29,7 +29,7 @@ export function useLogin() {
   const enableLogin = useAtomValue(enableLoginAtom)
 
   const login = useCallback(() => {
-    window.location.href = enableLogin.url || "/api/login"
+    window.location.href = enableLogin.url || `${import.meta.env.BASE_URL}api/login`
   }, [enableLogin])
 
   const logout = useCallback(() => {

@@ -124,7 +124,7 @@ function SourceItem({ item }: {
         <span
           className={$("w-4 h-4 rounded-md bg-cover")}
           style={{
-            backgroundImage: `url(/icons/${item.id.split("-")[0]}.png)`,
+            backgroundImage: `url(${assetURL(`icons/${item.id.split("-")[0]}.png`)})`,
           }}
         />
         <span>{item.name}</span>

@@ -8,6 +8,7 @@ const queryClient = new QueryClient()
 
 const router = createRouter({
   routeTree,
+  basepath: import.meta.env.BASE_URL === "/" ? "/" : import.meta.env.BASE_URL.replace(/\/$/, ""),
   context: {
     queryClient,
   },
