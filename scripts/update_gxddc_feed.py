@@ -85,6 +85,11 @@ def timestamp(item: dict[str, str]) -> float:
         return 0
 
 
+def stable_identity(item: dict[str, str]) -> tuple[str, str]:
+    headline = item["title"].rsplit(" - ", 1)[0]
+    return (re.sub(r"\s+", "", headline).casefold(), item["pubDate"])
+
+
 def main() -> int:
     items: list[dict[str, str]] = []
     errors: list[str] = []
@@ -112,6 +117,9 @@ def main() -> int:
             previous_items = json.loads(OUTPUT.read_text(encoding="utf-8")).get("items", [])
         except (OSError, json.JSONDecodeError):
             pass
+
+    previous_by_identity = {stable_identity(item): item for item in previous_items}
+    latest = [previous_by_identity.get(stable_identity(item), item) for item in latest]
 
     if latest == previous_items:
         print(f"Snapshot unchanged ({len(latest)} items).")
