@@ -14,7 +14,7 @@ import { useSortable } from "../common/dnd/useSortable"
 import { OverlayScrollbar } from "../common/overlay-scrollbar"
 import type { ItemsProps } from "./card"
 import { CardWrapper } from "./card"
-import { FeaturedBoard } from "./featured-board"
+import { ProductPromoCard, productPromoKeys } from "./featured-board"
 import { currentColumnIDAtom, currentSourcesAtom } from "~/atoms"
 
 const AnimationDuration = 200
@@ -30,12 +30,21 @@ export function Dnd() {
     // double padding = 32
     return Math.min(width - 32, WIDTH)
   }, [width])
+  const displayItems = useMemo(() => {
+    const sourceItems = items.map(id => ({ kind: "source" as const, key: id, id }))
+    if (currentColumnID !== "hottest") return sourceItems
+    return [
+      ...sourceItems.slice(0, 1),
+      { kind: "promo" as const, key: "promo-kuaizhunyi", promo: productPromoKeys[0] },
+      ...sourceItems.slice(1, 2),
+      { kind: "promo" as const, key: "promo-xiaodushe", promo: productPromoKeys[1] },
+      ...sourceItems.slice(2, 3),
+      { kind: "promo" as const, key: "promo-qianqiuhuisheng", promo: productPromoKeys[2] },
+      ...sourceItems.slice(3),
+    ]
+  }, [currentColumnID, items])
 
   if (!items.length) return null
-
-  if (currentColumnID === "hottest" && items.includes("gxddc" as SourceID)) {
-    return <FeaturedBoard items={items} />
-  }
 
   return (
     <DndWrapper items={items} setItems={setItems} isSingleColumn={isMobile} sortable={sortable}>
@@ -67,10 +76,10 @@ export function Dnd() {
             },
           }}
         >
-          {items.map((id, index) => (
+          {displayItems.map((item, index) => (
             <motion.li
-              key={id}
-              className={$(isMobile && "flex-shrink-0", isMobile && index === items.length - 1 && "mr-2")}
+              key={item.key}
+              className={$(isMobile && "flex-shrink-0", isMobile && index === displayItems.length - 1 && "mr-2")}
               style={isMobile ? { width: `${width - 16 > WIDTH ? WIDTH : width - 16}px` } : undefined}
               transition={{
                 type: "tween",
@@ -87,7 +96,9 @@ export function Dnd() {
                 },
               }}
             >
-              <SortableCardWrapper id={id} sortable={sortable} />
+              {item.kind === "source"
+                ? <SortableCardWrapper id={item.id} sortable={sortable} />
+                : <ProductPromoCard promo={item.promo} />}
             </motion.li>
           ))}
         </motion.ol>

@@ -6,12 +6,10 @@ export function NavBar() {
   const currentId = useAtomValue(currentColumnIDAtom)
   const { toggle } = useSearchBar()
   return (
-    <span
-      className={$([
-        "site-navbar flex p-3 rounded-2xl bg-primary/1 text-sm",
-        "shadow shadow-primary/20 hover:shadow-primary/50 transition-shadow-500",
-      ])}
-      aria-label="资讯栏目"
+    <span className={$([
+      "flex p-3 rounded-2xl bg-primary/1 text-sm",
+      "shadow shadow-primary/20 hover:shadow-primary/50 transition-shadow-500",
+    ])}
     >
       <button
         type="button"

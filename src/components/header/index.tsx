@@ -48,16 +48,18 @@ function Refresh() {
 export function Header() {
   return (
     <>
-      <span className="brand-lockup justify-self-start">
-        <Link to="/" className="brand-lockup__link" aria-label="东方既白，每天第一时间为你带来实时世界资讯">
-          <span className="brand-lockup__name">
-            东方
-            <br />
-            既白
+      <span className="flex justify-self-start">
+        <Link to="/" className="flex gap-2 items-center">
+          <div className="h-10 w-10 bg-cover" title="logo" style={{ backgroundImage: "url(/icon.svg)" }} />
+          <span className="text-2xl font-brand line-height-none!">
+            <p>News</p>
+            <p className="mt--1">
+              <span className="color-primary-6">N</span>
+              <span>ow</span>
+            </p>
           </span>
-          <span className="brand-lockup__tagline">每天第一时间，为你带来实时世界资讯</span>
         </Link>
-        <a target="_blank" href={`${Homepage}/releases/tag/v${Version}`} className="brand-lockup__version btn font-mono">
+        <a target="_blank" href={`${Homepage}/releases/tag/v${Version}`} className="btn text-sm ml-1 font-mono">
           {`v${Version}`}
         </a>
       </span>
@@ -66,7 +68,7 @@ export function Header() {
           <NavBar />
         </span>
       </span>
-      <span className="site-header__actions justify-self-end flex gap-3 items-center text-xl text-primary-600 dark:text-primary">
+      <span className="justify-self-end flex gap-2 items-center text-xl text-primary-600 dark:text-primary">
         <GoTop />
         <Refresh />
         <Github />
