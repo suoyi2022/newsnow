@@ -1,3 +1,5 @@
+import bundledSnapshot from "../../public/data/gxddc.json"
+
 const materialKeywords = [
   "共享单车",
   "共享电单车",
@@ -19,7 +21,7 @@ const materialKeywords = [
   "共享单车投诉",
 ]
 
-const snapshotUrl = "https://raw.githubusercontent.com/suoyi2022/newsnow/main/public/data/gxddc.json"
+const snapshotUrl = "https://cdn.jsdelivr.net/gh/suoyi2022/newsnow@main/public/data/gxddc.json"
 
 const queryGroups = Array.from(
   { length: Math.ceil(materialKeywords.length / 6) },
@@ -49,15 +51,17 @@ const urls = queryGroups.map((query) => {
 })
 
 export default defineSource(async () => {
-  let items: Array<{ title?: string, link?: string, url?: string, created?: string, pubDate?: string }> = []
+  let items: Array<{ title?: string, link?: string, url?: string, created?: string, pubDate?: string }> = bundledSnapshot.items
 
   try {
     const snapshot = await myFetch<{ items?: typeof items }>(snapshotUrl, {
       retry: 1,
       timeout: 5000,
     })
-    items = snapshot.items ?? []
-  } catch {
+    if (snapshot.items?.length) items = snapshot.items
+  } catch {}
+
+  if (!items.length) {
     const feeds = await Promise.allSettled(urls.map(url => rss2json(url)))
     items = feeds.flatMap(result => result.status === "fulfilled" ? result.value?.items ?? [] : [])
   }
