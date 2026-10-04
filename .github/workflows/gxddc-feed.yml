@@ -35,4 +35,4 @@ jobs:
           git push
 
       - name: Refresh public feed cache
-        run: curl -fsS -X POST 'https://purge.jsdelivr.net/gh/suoyi2022/newsnow@main/public/data/gxddc.json'
+        run: curl -fsS 'https://purge.jsdelivr.net/gh/suoyi2022/newsnow@main/public/data/gxddc.json'
