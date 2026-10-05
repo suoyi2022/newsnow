@@ -90,6 +90,9 @@ export interface NewsItem {
   url: string
   mobileUrl?: string
   pubDate?: number | string
+  publishedAt?: number | string
+  discoveredAt?: number | string
+  freshnessTier?: "fresh" | "recent" | "reference"
   extra?: {
     hover?: string
     date?: number | string
@@ -107,5 +110,11 @@ export interface SourceResponse {
   id: SourceID
   updatedTime: number | string
   items: NewsItem[]
+  freshness?: {
+    latestPublishedAt?: number | string
+    lastCheckedAt?: number | string
+    generatedAt?: number | string
+    isCheckDelayed: boolean
+  }
   info?: any
 }

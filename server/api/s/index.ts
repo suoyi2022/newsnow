@@ -2,6 +2,7 @@ import type { SourceID, SourceResponse } from "@shared/types"
 import { getters } from "#/getters"
 import { getCacheTable } from "#/database/cache"
 import type { CacheInfo } from "#/types"
+import { getGxddcFeed } from "#/sources/gxddc"
 
 const info = {
   LICENCE: "MIT",
@@ -20,6 +21,23 @@ export default defineEventHandler(async (event): Promise<SourceResponse> => {
       const redirectID = sources?.[id]?.redirect
       if (redirectID) id = redirectID
       if (isValid(id)) throw new Error("Invalid source id")
+    }
+
+    if (id === "gxddc") {
+      const feed = await getGxddcFeed()
+      return {
+        status: "success",
+        id,
+        updatedTime: feed.lastCheckedAt,
+        items: feed.items.slice(0, 30),
+        freshness: {
+          latestPublishedAt: feed.latestPublishedAt,
+          lastCheckedAt: feed.lastCheckedAt,
+          generatedAt: feed.generatedAt,
+          isCheckDelayed: feed.isCheckDelayed,
+        },
+        info,
+      }
     }
 
     const cacheTable = await getCacheTable()

@@ -146,7 +146,23 @@ def stable_identity(item: dict[str, str]) -> tuple[str, str]:
     return (re.sub(r"\s+", "", headline).casefold(), item["pubDate"])
 
 
+def freshness_tier(pub_date: str, checked_at: datetime) -> str:
+    try:
+        published_at = email.utils.parsedate_to_datetime(pub_date)
+        if published_at.tzinfo is None:
+            published_at = published_at.replace(tzinfo=timezone.utc)
+        age_hours = max(0, (checked_at - published_at).total_seconds()) / 3600
+    except (TypeError, ValueError):
+        return "reference"
+    if age_hours <= 24:
+        return "fresh"
+    if age_hours <= 72:
+        return "recent"
+    return "reference"
+
+
 def main() -> int:
+    checked_at = datetime.now(timezone.utc)
     items: list[dict[str, str]] = []
     errors: list[str] = []
     for index in range(0, len(KEYWORDS), 6):
@@ -178,30 +194,43 @@ def main() -> int:
             print(error, file=sys.stderr)
         return 1
 
+    previous_payload: dict = {}
     previous_items: list[dict[str, str]] = []
     if OUTPUT.exists():
         try:
-            previous_items = json.loads(OUTPUT.read_text(encoding="utf-8")).get("items", [])
+            previous_payload = json.loads(OUTPUT.read_text(encoding="utf-8"))
+            previous_items = previous_payload.get("items", [])
         except (OSError, json.JSONDecodeError):
             pass
 
     previous_by_identity = {stable_identity(item): item for item in previous_items}
-    latest = [previous_by_identity.get(stable_identity(item), item) for item in latest]
+    checked_at_iso = checked_at.isoformat()
+    enriched: list[dict[str, str]] = []
+    for item in latest:
+        previous = previous_by_identity.get(stable_identity(item), {})
+        enriched.append({
+            **item,
+            "publishedAt": item["pubDate"],
+            "discoveredAt": previous.get("discoveredAt", checked_at_iso),
+            "freshnessTier": freshness_tier(item["pubDate"], checked_at),
+        })
+    latest = enriched
 
-    if latest == previous_items:
-        print(f"Snapshot unchanged ({len(latest)} items).")
-        return 0
+    content_changed = latest != previous_items
+    generated_at = checked_at_iso if content_changed else previous_payload.get("generatedAt", checked_at_iso)
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     payload = {
-        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "generatedAt": generated_at,
+        "lastCheckedAt": checked_at_iso,
         "keywords": KEYWORDS,
         "items": latest,
     }
     OUTPUT.write_text(
         json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )
-    print(f"Updated snapshot with {len(latest)} items.")
+    state = "updated" if content_changed else "checked; content unchanged"
+    print(f"Snapshot {state} ({len(latest)} items).")
     return 0
 
 

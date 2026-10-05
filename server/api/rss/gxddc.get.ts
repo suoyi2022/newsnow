@@ -1,11 +1,11 @@
-import { getters } from "#/getters"
+import { getGxddcFeed } from "#/sources/gxddc"
 import { buildRSSFeed } from "#/utils/rss"
 
 const siteUrl = "https://app1.kuaizhunyi.com.cn/newsnow/"
 const feedUrl = `${siteUrl}api/rss/gxddc`
 
 export default defineEventHandler(async (event) => {
-  const items = (await getters.gxddc()).slice(0, 30)
+  const feed = await getGxddcFeed()
 
   setHeader(event, "Content-Type", "application/rss+xml; charset=utf-8")
   setHeader(event, "Cache-Control", "public, max-age=900, s-maxage=1800")
@@ -16,6 +16,7 @@ export default defineEventHandler(async (event) => {
     description: "共享单车、共享电单车、公共自行车、两轮车换电、运维、准入、招投标与合规资讯。",
     siteUrl,
     feedUrl,
-    items,
+    items: feed.items.slice(0, 30),
+    lastBuildDate: feed.lastCheckedAt,
   })
 })

@@ -12,6 +12,7 @@ describe("shared mobility RSS", () => {
       description: "共享两轮车",
       siteUrl: "https://example.com/",
       feedUrl: "https://example.com/api/rss/gxddc",
+      lastBuildDate: "Sun, 04 Oct 2026 10:00:00 GMT",
       items: [{
         id: "news-1",
         title: "政策 <发布>",
@@ -25,5 +26,6 @@ describe("shared mobility RSS", () => {
     expect(xml).toContain("<title>政策 &lt;发布&gt;</title>")
     expect(xml).toContain("<link>https://example.com/news?a=1&amp;b=2</link>")
     expect(xml).toContain("<pubDate>Sun, 04 Oct 2026 09:00:59 GMT</pubDate>")
+    expect(xml).toContain("<lastBuildDate>Sun, 04 Oct 2026 10:00:00 GMT</lastBuildDate>")
   })
 })

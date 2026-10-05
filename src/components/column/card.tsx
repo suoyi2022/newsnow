@@ -151,7 +151,7 @@ function NewsCard({ id, setHandleRef }: NewsCardProps) {
               </span>
               {sources[id]?.title && <span className={$("text-sm", `color-${sources[id].color} bg-base op-80 bg-op-50! px-1 rounded`)}>{sources[id].title}</span>}
             </span>
-            <span className="text-xs op-70"><UpdatedTime isError={isError} updatedTime={data?.updatedTime} /></span>
+            <span className="text-xs op-70"><UpdatedTime id={id} isError={isError} data={data} /></span>
           </span>
         </div>
         <div className={$("flex gap-2 text-lg", `color-${sources[id].color}`)}>
@@ -216,8 +216,13 @@ function NewsCard({ id, setHandleRef }: NewsCardProps) {
   )
 }
 
-function UpdatedTime({ isError, updatedTime }: { updatedTime: any, isError: boolean }) {
-  const relativeTime = useRelativeTime(updatedTime ?? "")
+function UpdatedTime({ id, isError, data }: { id: SourceID, data?: SourceResponse, isError: boolean }) {
+  const relativeTime = useRelativeTime(data?.updatedTime ?? "")
+  const publishedTime = useRelativeTime(data?.freshness?.latestPublishedAt ?? "")
+  const checkedTime = useRelativeTime(data?.freshness?.lastCheckedAt ?? "")
+  if (id === RETAINED_SOURCE && publishedTime && checkedTime) {
+    return `最新资讯${publishedTime} · ${data?.freshness?.isCheckDelayed ? "检查延迟" : `检查${checkedTime}`}`
+  }
   if (relativeTime) return `${relativeTime}更新`
   if (isError) return "获取失败"
   return "加载中..."

@@ -6,6 +6,7 @@ interface RSSFeedOptions {
   siteUrl: string
   feedUrl: string
   items: NewsItem[]
+  lastBuildDate?: string | number
 }
 
 export function escapeXml(value: string | number) {
@@ -36,7 +37,7 @@ export function buildRSSFeed(options: RSSFeedOptions) {
     ].filter(Boolean).join("\n")
   }).join("\n")
 
-  const lastBuildDate = validDate(options.items[0]?.pubDate) ?? new Date().toUTCString()
+  const lastBuildDate = validDate(options.lastBuildDate) ?? validDate(options.items[0]?.pubDate) ?? new Date().toUTCString()
   return [
     "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
     "<rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\">",
