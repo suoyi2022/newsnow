@@ -55,6 +55,69 @@ LOW_VALUE_PATTERN = re.compile(
 FOREIGN_PATTERN = re.compile(r"苏必利尔|河内|Fortune Business|RTD-Denver")
 AGGREGATOR_PATTERN = re.compile(r"搜狐|新浪|中华网|汽车之家")
 OUTPUT = Path(__file__).resolve().parents[1] / "public" / "data" / "gxddc.json"
+GOOGLE_NEWS_ARTICLE = re.compile(r"^https://news\.google\.com/(?:rss/)?articles/([^?]+)")
+TRACKING_PARAMS = {"from", "source", "spm", "campaign", "oid", "vt"}
+
+
+def clean_publisher_url(value: str) -> str:
+    try:
+        parsed = urllib.parse.urlsplit(value)
+        if parsed.scheme not in {"http", "https"} or not parsed.netloc or parsed.username or parsed.password:
+            return ""
+        if parsed.hostname == "news.google.com":
+            return ""
+        query = urllib.parse.parse_qsl(parsed.query, keep_blank_values=True)
+        query = [(key, val) for key, val in query if not key.lower().startswith("utm_") and key.lower() not in TRACKING_PARAMS]
+        return urllib.parse.urlunsplit((parsed.scheme, parsed.netloc, parsed.path, urllib.parse.urlencode(query), ""))
+    except ValueError:
+        return ""
+
+
+def resolve_google_news_url(value: str) -> str:
+    match = GOOGLE_NEWS_ARTICLE.match(value)
+    if not match:
+        return value
+    article_id = match.group(1)
+    headers = {
+        "User-Agent": "Mozilla/5.0 (compatible; KuaizhunyiFeed/1.0)",
+        "Accept": "text/html",
+    }
+    with urllib.request.urlopen(urllib.request.Request(value, headers=headers), timeout=20) as response:
+        page = response.read().decode("utf-8", errors="replace")
+    signature = re.search(r'data-n-a-sg=["\']([^"\']+)', page)
+    timestamp_match = re.search(r'data-n-a-ts=["\'](\d+)', page)
+    if not signature or not timestamp_match:
+        raise ValueError("Google News decode parameters missing")
+    inner = json.dumps([
+        "garturlreq",
+        [["X", "X", ["X", "X"], None, None, 1, 1, "US:en", None, 1, None, None, None, None, None, 0, 1], "X", "X", 1, [1, 1, 1], 1, 1, None, 0, 0, None, 0],
+        article_id,
+        int(timestamp_match.group(1)),
+        signature.group(1),
+    ], separators=(",", ":"))
+    request_body = json.dumps([[['Fbv4je', inner, None, 'generic']]], separators=(",", ":"))
+    request = urllib.request.Request(
+        "https://news.google.com/_/DotsSplashUi/data/batchexecute?rpcids=Fbv4je",
+        data=urllib.parse.urlencode({"f.req": request_body}).encode(),
+        headers={**headers, "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8", "Referer": "https://news.google.com/"},
+        method="POST",
+    )
+    with urllib.request.urlopen(request, timeout=20) as response:
+        payload = response.read().decode("utf-8", errors="replace")
+    marker = '[\\"garturlres\\",\\"'
+    start = payload.find(marker)
+    if start < 0:
+        raise ValueError("Google News publisher URL missing")
+    rest = payload[start + len(marker):]
+    end = rest.find('\\",')
+    if end < 0:
+        raise ValueError("Google News publisher URL malformed")
+    decoded = json.loads(f'"{rest[:end]}"')
+    decoded = re.sub(r"\\u([0-9a-fA-F]{4})", lambda match: chr(int(match.group(1), 16)), decoded).replace("\\/", "/")
+    resolved = clean_publisher_url(decoded)
+    if not resolved:
+        raise ValueError("Google News publisher URL invalid")
+    return resolved
 
 
 def is_relevant(title: str) -> bool:
@@ -208,8 +271,18 @@ def main() -> int:
     enriched: list[dict[str, str]] = []
     for item in latest:
         previous = previous_by_identity.get(stable_identity(item), {})
+        aggregator_url = item["url"]
+        previous_original = previous.get("url", "") if previous.get("aggregatorUrl") == aggregator_url else ""
+        if previous_original and not GOOGLE_NEWS_ARTICLE.match(previous_original):
+            item["url"] = previous_original
+        else:
+            try:
+                item["url"] = resolve_google_news_url(aggregator_url)
+            except Exception as error:
+                print(f"Could not resolve article URL: {error}", file=sys.stderr)
         enriched.append({
             **item,
+            **({"aggregatorUrl": aggregator_url} if item["url"] != aggregator_url else {}),
             "publishedAt": item["pubDate"],
             "discoveredAt": previous.get("discoveredAt", checked_at_iso),
             "freshnessTier": freshness_tier(item["pubDate"], checked_at),
