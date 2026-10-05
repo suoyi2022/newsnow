@@ -47,7 +47,7 @@ const materialKeywords = [
   "共享单车投诉",
 ]
 
-const snapshotUrl = "https://cdn.jsdelivr.net/gh/suoyi2022/newsnow@main/public/data/gxddc.json"
+const snapshotUrl = "https://cdn.jsdelivr.net/gh/suoyi2022/newsnow@main/public/data/gxddc.json?v=original-url-v1"
 
 const queryGroups = Array.from(
   { length: Math.ceil(materialKeywords.length / 6) },
