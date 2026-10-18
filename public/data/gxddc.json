@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-17T23:59:20.680698+00:00",
-  "lastCheckedAt": "2026-10-17T23:59:20.680698+00:00",
+  "generatedAt": "2026-10-18T04:21:35.882598+00:00",
+  "lastCheckedAt": "2026-10-18T04:21:35.882598+00:00",
   "keywords": [
     "共享单车",
     "共享电单车",
@@ -23,22 +23,13 @@
   ],
   "items": [
     {
-      "title": "严厉打击！扬州这些电动车涉嫌违规！|共享电单车|扬州市|上牌手续|市民|江苏省 - finance.sina.com.cn",
-      "url": "https://finance.sina.cn/2026-10-17/detail-inivnzsm7252864.d.html?cid=76675&node_id=76675",
-      "pubDate": "Sat, 17 Oct 2026 04:03:42 GMT",
-      "aggregatorUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTGlXTmc4TDFJdUdnWDIwVlExa1BlZjVla2QwMkxGa1BuMDlfdmtXbXBSZG1MTHRyVkh2clZ3QzFCYkp4SEtSd3M4dFAtWXI2ZHdPbTJaRkpCMzBmMm5CVFUxSjU2WGl5c29qNHhGT3RVZTlVVFlpU1RwQ1VkNjJKMFZucmh2V3ZOcFJrbXdJdE1pS2VYMjFaZA?oc=5",
-      "publishedAt": "Sat, 17 Oct 2026 04:03:42 GMT",
-      "discoveredAt": "2026-10-17T04:56:56.828499+00:00",
-      "freshnessTier": "fresh"
-    },
-    {
       "title": "上海女子手提包遗落共享单车5小时 深夜折返 包还在原地！ - 加拿大新闻网",
       "url": "https://cacnews.ca/202393.html",
       "pubDate": "Sat, 17 Oct 2026 01:30:00 GMT",
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMiREFVX3lxTE5GUWJaMG1MVmVrNzczMk44Z095SXZ6NFV3enlWT2cxTmhPUmIzTFh2SUlSenpwTkpmTlBVQy1XZUpIQ0tX?oc=5",
       "publishedAt": "Sat, 17 Oct 2026 01:30:00 GMT",
       "discoveredAt": "2026-10-17T04:56:56.828499+00:00",
-      "freshnessTier": "fresh"
+      "freshnessTier": "recent"
     },
     {
       "title": "基于可微分智能体仿真方法的共享单车动态定价优化研究 - 生物通",
@@ -68,13 +59,31 @@
       "freshnessTier": "recent"
     },
     {
+      "title": "模仿网络烂梗多地共享电单车被恶意倒立！警方出手|江苏省|浙江省|车辆|派出所|民警 - finance.sina.com.cn",
+      "url": "https://finance.sina.cn/tech/2026-10-15/detail-inivhyaq1498514.d.html",
+      "pubDate": "Thu, 15 Oct 2026 20:47:26 GMT",
+      "aggregatorUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9hNUF2SjR6LVUtdFY4Q3Qtb09MOFV3QXU2Mnk1OGhZQmFBU1RwZ1NtV2RaMGwwRHBLVmNtNGhaMmhsMnJDZ3IteGpXRENJM0Y3N1c5MFlwYTFCUnk2bEtvOVI2QzRMcGpyLXU2eVFvX3pFRTBFMlF3Q1h1X09XSE0?oc=5",
+      "publishedAt": "Thu, 15 Oct 2026 20:47:26 GMT",
+      "discoveredAt": "2026-10-18T04:21:35.882598+00:00",
+      "freshnessTier": "recent"
+    },
+    {
+      "title": "共享电单车，要“停好”更要“护好” - 川观新闻",
+      "url": "https://cbgc.scol.com.cn/news/8059703",
+      "pubDate": "Thu, 15 Oct 2026 06:19:00 GMT",
+      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5GYlBxOUFiSnB1WWFJZDNfbTZxZk0wQzhwX19Uc09xclRzeG9CRkY4UFFMZDIzSjUwSU5vdm5MaUt0Qm1haGF5SE9JYXAwdw?oc=5",
+      "publishedAt": "Thu, 15 Oct 2026 06:19:00 GMT",
+      "discoveredAt": "2026-10-18T04:21:35.882598+00:00",
+      "freshnessTier": "recent"
+    },
+    {
       "title": "效仿网络视频倒置共享单车 几名男子受到行政处罚 - 云视网",
       "url": "https://www.yntv.cn/video/20261014/1791982823825064.html",
       "pubDate": "Thu, 15 Oct 2026 02:51:29 GMT",
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41eHFSYjQzOTM2ZmtlNzEzdkR5RUt6YjBfODQ3WTJybUlpWXhpeHcyZ3MyX3EyV3ZYc3o3bDV5b2stMFVybFRNZ1hYay1ia2hKSHQ5eE5GSXpySExJMTFYNVRVS1NISHc?oc=5",
       "publishedAt": "Thu, 15 Oct 2026 02:51:29 GMT",
       "discoveredAt": "2026-10-16T04:23:16.130577+00:00",
-      "freshnessTier": "recent"
+      "freshnessTier": "reference"
     },
     {
       "title": "共享电动车头盔卫生问题引热议 成都情况如何？记者实地探访 - 四川新闻",
@@ -95,15 +104,6 @@
       "freshnessTier": "reference"
     },
     {
-      "title": "武汉强化共享单车精细化治理 末位减量机制提效能 - 中宏网",
-      "url": "https://www.zhonghongwang.com/show-140-474560-1.html",
-      "pubDate": "Mon, 12 Oct 2026 02:37:30 GMT",
-      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Id3VIa2o2djUyaGlXOVMxRXh1YUtfUVY1S2pnUVhFb0R2bDV3YUFuNWtIejNpamRMTEtHRHRrQy1nMUd4Ny1KZVhKZWlWS0t4U1RXNTlEdlBVXzMwYko4QWhR?oc=5",
-      "publishedAt": "Mon, 12 Oct 2026 02:37:30 GMT",
-      "discoveredAt": "2026-10-12T09:05:48.540785+00:00",
-      "freshnessTier": "reference"
-    },
-    {
       "title": "共享电动车头盔卫生引热议 医生教你三招做好防护 - 四川新闻",
       "url": "https://sichuan.scol.com.cn/ggxw/202610/83337680.html",
       "pubDate": "Sun, 11 Oct 2026 05:22:17 GMT",
@@ -119,6 +119,15 @@
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQZElHaER6ZjFSdDFKczE0SHUzVkVYRWl2LVlWdW9VV3lZUmt6NXJIcTdmaDVmOXdBMXpwQ1lZaUhIcVQxRVp2bW50M0JsN09SRU5nQWZyQUpIZDlXX3dmT3FicG1pdlVGR2NuUmtwNUE1RFF0NzRpMjVqWDRPa28wak5UVW54VUtrblJiM2ZGSHBWc0lHci1SX3BBWFRJQUMxT1lrak1rRTJ5NEV1MkYzSGpOOTR3QXVWeC1iX293SG9oTHRoNFE3a05PX0Q5NUtEUHlOTGVFQ1dLQ3NqUUhMUEYyOEEyeDV2WHZPc2piWDAwaTZoUWZST3JuRkttSHRXSzhEZHR0WkVOdkhOVG5VU1ptbw?oc=5",
       "publishedAt": "Sat, 10 Oct 2026 23:26:57 GMT",
       "discoveredAt": "2026-10-17T23:59:20.680698+00:00",
+      "freshnessTier": "reference"
+    },
+    {
+      "title": "河南林州多处共享电单车被车轮朝天摆放，市民称系部分年轻人玩梗行为，当地回应：将联合多部门通宵采取行动、重点打击 - finance.sina.com.cn",
+      "url": "https://finance.sina.cn/2026-10-09/detail-iniuqywr7918455.d.html",
+      "pubDate": "Fri, 09 Oct 2026 10:45:33 GMT",
+      "aggregatorUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1PaW5yeHlRbEpqc25JODN1WGRzRzBlLWszNnhWU3VOb3h0MVlZc2xEMmVvVEpfRWozb25fTVNLSXRCRWdCdHVKcXdIeW5LQzhuMURrVS0tcW5Bb21BZTU3MnQ4NEktTXYtblFJZC1RTW5aZGpIajg0dA?oc=5",
+      "publishedAt": "Fri, 09 Oct 2026 10:45:33 GMT",
+      "discoveredAt": "2026-10-18T04:21:35.882598+00:00",
       "freshnessTier": "reference"
     },
     {
@@ -248,15 +257,6 @@
       "freshnessTier": "reference"
     },
     {
-      "title": "地铁口共享单车“专位”上线 - 杭州网",
-      "url": "https://pic.hangzhou.com.cn/hzyx/content/content_9301815.html",
-      "pubDate": "Tue, 08 Sep 2026 07:00:00 GMT",
-      "aggregatorUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE03d0RzYmZSVkdlYTNueUNKX3U4eWFBX0cyTWkyaklKNXNKSUwxQ3BicWxxbWo0ZkM3dFVHSzdVQ3JibmdnbDhPbkhBOUVCVEtyVURKZ19lNGhaRnRlcEdoaVBic0RVOHB6aDFxVmRR?oc=5",
-      "publishedAt": "Tue, 08 Sep 2026 07:00:00 GMT",
-      "discoveredAt": "2026-10-17T23:59:20.680698+00:00",
-      "freshnessTier": "reference"
-    },
-    {
       "title": "市住房城乡建设局组织调研换电柜标准示范点建设工作 - 广州市人民政府",
       "url": "https://www.gz.gov.cn/xw/zwlb/content/post_10993410.html",
       "pubDate": "Mon, 07 Sep 2026 07:00:00 GMT",
@@ -275,12 +275,12 @@
       "freshnessTier": "reference"
     },
     {
-      "title": "江扎社区开展共享电动车专项整治行动 - 中国西藏新闻网",
-      "url": "https://www.xzxw.com/xw/xzyw/2026-09/07/content_6953904.html",
+      "title": "断轮毂、掉链条、刹车失灵……南京市民投诉称公共自行车问题多多！公司回应：目前运营状况暂不允许替换更新 - 紫牛新闻",
+      "url": "https://www.yzwb.net/news/sh/202609/t20260907_390436.html",
       "pubDate": "Mon, 07 Sep 2026 07:00:00 GMT",
-      "aggregatorUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fLVgwQ0N3OFU3dXJCVHZmclJmVm1FenJnQjRGbEstUUNrTFg3ZjJwTC1Nd3Vwc2pTY2ZVUHBORllGelFabVdaQnVIQUdiMjNGblR6aFFuU1l3RTdxWHN4RG9pMlN6VHExLWpxYg?oc=5",
+      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1GOXgwS0hrczdzak44UmZJZkpScDByZ0N2Uy1OalNySlpkbnRCeHNfNS05SGtjd1pteWRITS1tYkxwcGpzY3NHZms0VjZKdjlhaTRKLXJLMENHTUl2eVJkdGpyVVB6clMt?oc=5",
       "publishedAt": "Mon, 07 Sep 2026 07:00:00 GMT",
-      "discoveredAt": "2026-10-17T23:59:20.680698+00:00",
+      "discoveredAt": "2026-10-18T04:21:35.882598+00:00",
       "freshnessTier": "reference"
     },
     {
