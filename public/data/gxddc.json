@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-24T05:46:33.129927+00:00",
-  "lastCheckedAt": "2026-10-24T05:46:33.129927+00:00",
+  "generatedAt": "2026-10-24T10:50:17.988966+00:00",
+  "lastCheckedAt": "2026-10-24T10:50:17.988966+00:00",
   "keywords": [
     "共享单车",
     "共享电单车",
@@ -83,7 +83,7 @@
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB1T3NUVUhEWEFzay1pZ0llYUVzcUFicGtocGl1U3Y1bUIwSlRydVRadkhGTG1XdHozVF9GSTQ0VExKY0NTVVU0aFhneTJNb2pHSFhaZmlFUUR4eHo3Q3BSZm1WY0wwbHYwNUJOa1FoXzU?oc=5",
       "publishedAt": "Wed, 21 Oct 2026 08:39:39 GMT",
       "discoveredAt": "2026-10-21T09:37:32.797096+00:00",
-      "freshnessTier": "recent"
+      "freshnessTier": "reference"
     },
     {
       "title": "Z调查丨别脏了我的“头”——共享电动车头盔乱象调查 - 新蓝网",
@@ -92,7 +92,7 @@
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBjWDZpbW1tSFBuRmdFMFFCWjdJTHFUZERaUDVJZ3RCZGFSU3hubU5KU3o5UWJ1RlpkOWRTUDQ4bE5GNHlUSGRJZUVRZWFweTg?oc=5",
       "publishedAt": "Wed, 21 Oct 2026 07:36:00 GMT",
       "discoveredAt": "2026-10-21T09:37:32.797096+00:00",
-      "freshnessTier": "recent"
+      "freshnessTier": "reference"
     },
     {
       "title": "在长崎Stadium City,共享单车“Charchari”“HELLO CYCLING”的端口诞生了!〜让城市的热气吹遍整个长崎市。为了提高周边地区的迁游性，10月28日 (星期三)举办了试乘体验会~ - www.nagasakistadiumcity.com",
@@ -101,7 +101,7 @@
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fZ2lOZHlLODVGcFpEcW1sczU2UEFXZDNIS3BLRDhvb245UENDT1V6VG1HQlQtRVNjZkF1OEZSX195QjVBb2hPT0lIenZITVdpWUEwVFdtNWdraFBxWXNnR1VR?oc=5",
       "publishedAt": "Wed, 21 Oct 2026 06:26:41 GMT",
       "discoveredAt": "2026-10-22T06:33:03.344061+00:00",
-      "freshnessTier": "recent"
+      "freshnessTier": "reference"
     },
     {
       "title": "2026年两轮车换电电池资产管理技术蓝皮书 - 电子工程专辑",
@@ -203,15 +203,6 @@
       "freshnessTier": "reference"
     },
     {
-      "title": "小心共享单车假二维码，不法分子贴高仿贴纸诈骗。 - 河北广播电视台",
-      "url": "https://www.hebtv.com/0/0rmhlm/sydw/sx/rh/12546554.shtml",
-      "pubDate": "Mon, 12 Oct 2026 07:00:00 GMT",
-      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tYkNNbjVLU21Xc2pucHBnMDNlNHZOLTVoelpQNkxSRVlvWlZzT3llcGo2eHhvQk8wdHhQS0dRRWdMVnRTT0poRlhCNnNHRTE4b1hPaHA4NTRPelg0eTlEcTVFUF9KNzQ?oc=5",
-      "publishedAt": "Mon, 12 Oct 2026 07:00:00 GMT",
-      "discoveredAt": "2026-10-24T01:03:59.015943+00:00",
-      "freshnessTier": "reference"
-    },
-    {
       "title": "11月起实施！共享单车最新国家标准 - 凤凰网",
       "url": "https://feng.ifeng.com/c/8x7HbCHyIXm",
       "pubDate": "Sat, 10 Oct 2026 07:00:00 GMT",
@@ -245,6 +236,15 @@
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5iNzhhWDlxalhrVktjT1R2cWRHdzBuaUlWTUFyeTM0VFdyVGpROGxBeHJVbTZ3YVhfckF5LUc5RFVLTnpWbElOUWZxeGllOFA5aDNCd01nV1lnb0E4TGc?oc=5",
       "publishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
       "discoveredAt": "2026-10-21T09:37:32.797096+00:00",
+      "freshnessTier": "reference"
+    },
+    {
+      "title": "“一辆干净方便的共享单车，也许就是旅客对北京的第一印象” - 京报网",
+      "url": "https://xinwen.bjd.com.cn/content/s6ac31f7ae4b039a8e2f1f162.html",
+      "pubDate": "Mon, 05 Oct 2026 07:00:00 GMT",
+      "aggregatorUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE1jQTZfNkF3R0lmUXdvR0RWYlAtcGUzMXpBX0FabVJhZVRLUm9xMjUtbjg0LVlMT25DdWFXbjdnNWY2SnVWalFDWTlWYW4zYzZhYXZyX1U3ZS1oY3ItRXNfdnBxWWdxV25obXlKZmRDN2x6Zw?oc=5",
+      "publishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
+      "discoveredAt": "2026-10-24T10:50:17.988966+00:00",
       "freshnessTier": "reference"
     },
     {
