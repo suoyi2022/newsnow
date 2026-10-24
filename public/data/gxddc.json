@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-23T22:36:08.570810+00:00",
-  "lastCheckedAt": "2026-10-23T22:36:08.570810+00:00",
+  "generatedAt": "2026-10-24T01:03:59.015943+00:00",
+  "lastCheckedAt": "2026-10-24T01:03:59.015943+00:00",
   "keywords": [
     "共享单车",
     "共享电单车",
@@ -29,7 +29,7 @@
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Ia2FVNEtXMTdkRDVHd0hrZXZGQ3lTZ01jcXlNU2FUS2RVM01Ga0dUcG5VSXFSTkVKdVBNZFF0NHpGa1Bla2drbTR0NHNKVlFwVFBXT25JeFM1YzV0b3ZWYVgxbHJlUQ?oc=5",
       "publishedAt": "Fri, 23 Oct 2026 00:24:46 GMT",
       "discoveredAt": "2026-10-23T09:58:43.724341+00:00",
-      "freshnessTier": "fresh"
+      "freshnessTier": "recent"
     },
     {
       "title": "共享电动自行车“骑”进双屿、丰门！ - 温州新闻",
@@ -38,7 +38,7 @@
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBDUmQ0M1hEdExJeDBJNkgyc3NvSV9PV1pvaDhHOEhRUkNpMkFXTWkzS1FKdFhDeXV5NHRLVDItWkdFaFJJUjNNV0xPb3dMYlcyMjdfV0tiNm5xQmlMR2loRjAxV0FJT29BVjk5cA?oc=5",
       "publishedAt": "Fri, 23 Oct 2026 00:04:00 GMT",
       "discoveredAt": "2026-10-23T09:58:43.724341+00:00",
-      "freshnessTier": "fresh"
+      "freshnessTier": "recent"
     },
     {
       "title": "不让换电柜成“定时炸弹” 花垣检察对电动自行车换电柜监管问题启动行政公益诉讼 - 湖南长安网",
@@ -119,7 +119,7 @@
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBsRXVjUGZPSy1vZ1M4N3BoOV9ZdVlTTHNpZHhWSGZlRUdUTU5mQk93NWRDTGhzUTVDa2lHWl9ZOTlaUlhGOGh4OHZvWUR6M0dmRzQxSEstODlpdjFnVWVoR2JXU3VxZw?oc=5",
       "publishedAt": "Wed, 21 Oct 2026 00:28:58 GMT",
       "discoveredAt": "2026-10-21T04:35:17.021222+00:00",
-      "freshnessTier": "recent"
+      "freshnessTier": "reference"
     },
     {
       "title": "跟风网红恶搞翻车！华蓥2人倒置共享单车被警方查处 - 四川法治报",
@@ -128,15 +128,6 @@
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9oT09OX0tUd3NSalJFeTh6QUNFOVdPYmR4cGcxWGw5eXNabW5tN0ZSaFZtUHdJUjgzdW1BNHJRWGdjaEhKb1c1dWZCbmo5R3BBdzRRdXdBOVJYQQ?oc=5",
       "publishedAt": "Mon, 19 Oct 2026 08:58:31 GMT",
       "discoveredAt": "2026-10-21T19:33:57.597276+00:00",
-      "freshnessTier": "reference"
-    },
-    {
-      "title": "小红车点的桩位怎么拆掉了？杭州公共自行车公司回应 - QQ News",
-      "url": "https://news.qq.com/rain/a/20261017A00E3100?ptag=ima",
-      "pubDate": "Fri, 16 Oct 2026 16:20:00 GMT",
-      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE02MXlnTjE3eTljUl9UVTBzR1ZuZDBqeFo4ak53MzgxTFV2LVp1TDN5YlhJS3R2SXhpbXBwUXZVeENRVGpmSWpGbU9UX1dvQ3F4TDRWYnRrYlQydnl0ejF4TVFR?oc=5",
-      "publishedAt": "Fri, 16 Oct 2026 16:20:00 GMT",
-      "discoveredAt": "2026-10-23T22:36:08.570810+00:00",
       "freshnessTier": "reference"
     },
     {
@@ -200,6 +191,15 @@
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5aaDg4RmRPazdIejNYbmk5U3R0UlQxcEhDclFxdXR0aUNERk5TNzBQdVlsV0JCVVp4ZVdSYXI4R2otU0JGbTlLOHotd09oZjcyWmZZclpOeHdEX1NJXzBUOXJRTQ?oc=5",
       "publishedAt": "Mon, 12 Oct 2026 07:00:00 GMT",
       "discoveredAt": "2026-10-21T19:33:57.597276+00:00",
+      "freshnessTier": "reference"
+    },
+    {
+      "title": "小心共享单车假二维码，不法分子贴高仿贴纸诈骗。 - 河北广播电视台",
+      "url": "https://www.hebtv.com/0/0rmhlm/sydw/sx/rh/12546554.shtml",
+      "pubDate": "Mon, 12 Oct 2026 07:00:00 GMT",
+      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tYkNNbjVLU21Xc2pucHBnMDNlNHZOLTVoelpQNkxSRVlvWlZzT3llcGo2eHhvQk8wdHhQS0dRRWdMVnRTT0poRlhCNnNHRTE4b1hPaHA4NTRPelg0eTlEcTVFUF9KNzQ?oc=5",
+      "publishedAt": "Mon, 12 Oct 2026 07:00:00 GMT",
+      "discoveredAt": "2026-10-24T01:03:59.015943+00:00",
       "freshnessTier": "reference"
     },
     {
