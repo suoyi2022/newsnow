@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-25T23:11:24.547826+00:00",
-  "lastCheckedAt": "2026-10-25T23:11:24.547826+00:00",
+  "generatedAt": "2026-10-26T01:39:05.231507+00:00",
+  "lastCheckedAt": "2026-10-26T01:39:05.231507+00:00",
   "keywords": [
     "共享单车",
     "共享电单车",
@@ -56,7 +56,7 @@
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Ia2FVNEtXMTdkRDVHd0hrZXZGQ3lTZ01jcXlNU2FUS2RVM01Ga0dUcG5VSXFSTkVKdVBNZFF0NHpGa1Bla2drbTR0NHNKVlFwVFBXT25JeFM1YzV0b3ZWYVgxbHJlUQ?oc=5",
       "publishedAt": "Fri, 23 Oct 2026 00:24:46 GMT",
       "discoveredAt": "2026-10-23T09:58:43.724341+00:00",
-      "freshnessTier": "recent"
+      "freshnessTier": "reference"
     },
     {
       "title": "不让换电柜成“定时炸弹” 花垣检察对电动自行车换电柜监管问题启动行政公益诉讼 - 湖南长安网",
@@ -221,6 +221,15 @@
       "freshnessTier": "reference"
     },
     {
+      "title": "共享电动车头盔卫生引热议 医生教你三招做好防护 - 川观新闻",
+      "url": "https://cbgc.scol.com.cn/news/8045031",
+      "pubDate": "Sun, 11 Oct 2026 07:00:00 GMT",
+      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE05c2FfSTl4Q3cxZDIyNFo4TGlxamRNdVBiVmFoRmk5ZEVONTlzSTU0TjUwbF82TkFBYjcwOUg3ZXBhLXhhVkpEUjF3YjdMQQ?oc=5",
+      "publishedAt": "Sun, 11 Oct 2026 07:00:00 GMT",
+      "discoveredAt": "2026-10-26T01:39:05.231507+00:00",
+      "freshnessTier": "reference"
+    },
+    {
       "title": "11月起实施！共享单车最新国家标准 - 凤凰网",
       "url": "https://feng.ifeng.com/c/8x7HbCHyIXm",
       "pubDate": "Sat, 10 Oct 2026 07:00:00 GMT",
@@ -281,15 +290,6 @@
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9LS2xma1czSllQOHlGZmtFUzhTNlpPSGR6OUVIQUdfM0pxRFRyR2JiT2pvYThVZG5MWmJWeGtzNnRTdDJIY1VROVlwcTd5cWhLVmhCY2dKQUV5LUc4WFZ0ZkRwNllzYmJfZ0E?oc=5",
       "publishedAt": "Sat, 19 Sep 2026 07:00:00 GMT",
       "discoveredAt": "2026-10-24T22:25:42.998573+00:00",
-      "freshnessTier": "reference"
-    },
-    {
-      "title": "市住房城乡建设局组织调研换电柜标准示范点建设工作 - 广州市人民政府",
-      "url": "https://www.gz.gov.cn/xw/zwlb/content/post_10993410.html",
-      "pubDate": "Mon, 07 Sep 2026 07:00:00 GMT",
-      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYZlNYZ09ma1FDSXdJWEpNclB2OXk3MmpzcTJqWURYaUJKVGVuMnA2TXdnX0ZKWnlYUU1fS0FnSTA2cTZPUzZLMDcyV1NWVmR4RGsxN0kwSmFUa25ENGFZdzcxTHI2U0U?oc=5",
-      "publishedAt": "Mon, 07 Sep 2026 07:00:00 GMT",
-      "discoveredAt": "2026-10-12T18:59:32.179766+00:00",
       "freshnessTier": "reference"
     }
   ]
