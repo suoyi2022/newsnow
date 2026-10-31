@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-30T23:43:41.218942+00:00",
-  "lastCheckedAt": "2026-10-30T23:43:41.218942+00:00",
+  "generatedAt": "2026-10-31T05:28:20.274899+00:00",
+  "lastCheckedAt": "2026-10-31T05:28:20.274899+00:00",
   "keywords": [
     "共享单车",
     "共享电单车",
@@ -92,7 +92,7 @@
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE16RGxWckl3Vi1lRXFZRUFIc2VaMFF2MkNDRTlsQnV2ekpnNWZYekJZTDdpLVVLX2VQWTNsQzNleVE0TUlFUGtzVXpGRTBjMzQ4UG96U3g3TmNDU3Fhek9GbFVia1BEUQ?oc=5",
       "publishedAt": "Wed, 28 Oct 2026 00:16:58 GMT",
       "discoveredAt": "2026-10-28T13:29:32.833419+00:00",
-      "freshnessTier": "recent"
+      "freshnessTier": "reference"
     },
     {
       "title": "从“粗放整治”到“精细管控”，我市启动共享单车分级分区管理 - 手机网易网",
@@ -140,6 +140,15 @@
       "freshnessTier": "reference"
     },
     {
+      "title": "2026年两轮车换电电池资产管理技术蓝皮书 - 电子工程专辑",
+      "url": "https://www.eet-china.com/mp/a532633.html",
+      "pubDate": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15ZmIteG5mNHRLbGh3Yk4tRDZGbFZTMTRONGdzVGRpcGVBRGNzdlNYN0w1cTV4WTJ0RUtvT2p5cDhnNGtsOGFoV0trTGwtRDk1cGVF?oc=5",
+      "publishedAt": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "discoveredAt": "2026-10-31T05:28:20.274899+00:00",
+      "freshnessTier": "reference"
+    },
+    {
       "title": "Z调查丨别脏了我的“头”——共享电动车头盔乱象调查 - 新蓝网",
       "url": "https://www.cztv.com/newsDetail/911241",
       "pubDate": "Wed, 21 Oct 2026 07:00:00 GMT",
@@ -176,12 +185,30 @@
       "freshnessTier": "reference"
     },
     {
+      "title": "多地共享电单车被恶意“倒扣”，发起主播因多次破坏公物、骚扰他人引发热议；已有人被行拘 - 川观新闻",
+      "url": "https://cbgc.scol.com.cn/news/8060452",
+      "pubDate": "Thu, 15 Oct 2026 07:00:00 GMT",
+      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1FM0txb2prR2hXMEpkOEpTRjBfRFM4ZDBFZzVDcWRNUlNRNUR4cGU1bHU2TzVpWGhiS0ptRUJsUG9zbUFwTW5xRjk2ZERVUQ?oc=5",
+      "publishedAt": "Thu, 15 Oct 2026 07:00:00 GMT",
+      "discoveredAt": "2026-10-31T05:28:20.274899+00:00",
+      "freshnessTier": "reference"
+    },
+    {
       "title": "模仿网络烂梗 多地共享电单车被恶意倒立！警方出手 - 驱动之家",
       "url": "https://news.mydrivers.com/1/1157/1157758.htm",
       "pubDate": "Thu, 15 Oct 2026 07:00:00 GMT",
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBXeEFGaDBla3B2S2w0bjZ6UEdibElfXzc2cEVWeDg2ZldLN2t2RE1ocS1xNWlFZjFIQ0hFNUFOb1p0NHlrWk9UOTRSdXcxQThoR0V2bUJUSjE?oc=5",
       "publishedAt": "Thu, 15 Oct 2026 07:00:00 GMT",
       "discoveredAt": "2026-10-30T01:53:57.562746+00:00",
+      "freshnessTier": "reference"
+    },
+    {
+      "title": "事发九江！一换电柜突然起火 - 凤凰网",
+      "url": "https://i.ifeng.com/c/8xDokXplY8G",
+      "pubDate": "Wed, 14 Oct 2026 11:25:13 GMT",
+      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE12Tk1rUUFuc0J5TG1jcTNPNlBlVkdMVU5UbkdoRmYxb1JoMVlpMzBsMFdVdE4wdFpRMmxzcWFVN09RendHZV9fUg?oc=5",
+      "publishedAt": "Wed, 14 Oct 2026 11:25:13 GMT",
+      "discoveredAt": "2026-10-31T05:28:20.274899+00:00",
       "freshnessTier": "reference"
     },
     {
@@ -203,39 +230,12 @@
       "freshnessTier": "reference"
     },
     {
-      "title": "共享电动车头盔卫生问题引热议 成都情况如何？记者实地探访 - 四川新闻",
-      "url": "https://sichuan.scol.com.cn/ggxw/202610/83338132.html",
-      "pubDate": "Mon, 12 Oct 2026 07:00:00 GMT",
-      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5aaDg4RmRPazdIejNYbmk5U3R0UlQxcEhDclFxdXR0aUNERk5TNzBQdVlsV0JCVVp4ZVdSYXI4R2otU0JGbTlLOHotd09oZjcyWmZZclpOeHdEX1NJXzBUOXJRTQ?oc=5",
-      "publishedAt": "Mon, 12 Oct 2026 07:00:00 GMT",
-      "discoveredAt": "2026-10-30T23:43:41.218942+00:00",
-      "freshnessTier": "reference"
-    },
-    {
-      "title": "小心共享单车假二维码，不法分子贴高仿贴纸诈骗。 - 河北广播电视台",
-      "url": "https://www.hebtv.com/0/0rmhlm/sydw/sx/rh/12546554.shtml",
-      "pubDate": "Mon, 12 Oct 2026 07:00:00 GMT",
-      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tYkNNbjVLU21Xc2pucHBnMDNlNHZOLTVoelpQNkxSRVlvWlZzT3llcGo2eHhvQk8wdHhQS0dRRWdMVnRTT0poRlhCNnNHRTE4b1hPaHA4NTRPelg0eTlEcTVFUF9KNzQ?oc=5",
-      "publishedAt": "Mon, 12 Oct 2026 07:00:00 GMT",
-      "discoveredAt": "2026-10-30T23:43:41.218942+00:00",
-      "freshnessTier": "reference"
-    },
-    {
-      "title": "共享电动车头盔卫生引热议 医生教你三招做好防护 - 四川新闻",
-      "url": "https://sichuan.scol.com.cn/ggxw/202610/83337680.html",
-      "pubDate": "Sun, 11 Oct 2026 07:00:00 GMT",
-      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5BeHM0MlplbVpsYVNhSjlVOThwTHpDNkJzd3hfekhFRUZsdjdIaGd4dDgxTDdtOFFZWWduMEpEOGtkcExxZmVtd0pma1RVUldVOUFxYndwNmN0b0JjVnMza0VrNA?oc=5",
-      "publishedAt": "Sun, 11 Oct 2026 07:00:00 GMT",
-      "discoveredAt": "2026-10-30T23:43:41.218942+00:00",
-      "freshnessTier": "reference"
-    },
-    {
-      "title": "让共享电动自行车更好服务西宁市民 - 凤凰网",
-      "url": "https://i.ifeng.com/c/8x8AvAWiJqP",
-      "pubDate": "Sun, 11 Oct 2026 07:00:00 GMT",
-      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA1a0ZabmVpZXNFOEVzeS1QVElGelNxOWlWMlpVWHo1dnFzWkxXOE9XNU9xR1VzeWJaTHY5MkdjSkxLbTBzYVJRRA?oc=5",
-      "publishedAt": "Sun, 11 Oct 2026 07:00:00 GMT",
-      "discoveredAt": "2026-10-30T23:43:41.218942+00:00",
+      "title": "南充：无牌共享单车现身街头 - 凤凰网",
+      "url": "https://i.ifeng.com/c/8xBXE7i3U7t",
+      "pubDate": "Tue, 13 Oct 2026 07:00:00 GMT",
+      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZcTZUUTlMUW9ZMncteGV0ZnRXcF93SjM0NE9ieG1zZHdYU2FwS1ZEdGlIcXNfZ0YyQmpvUDB0V0lQaUpKVEJpZg?oc=5",
+      "publishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
+      "discoveredAt": "2026-10-31T05:28:20.274899+00:00",
       "freshnessTier": "reference"
     },
     {
@@ -266,6 +266,15 @@
       "freshnessTier": "reference"
     },
     {
+      "title": "共享单车最新国家标准来了！11月起实施 - 凤凰网",
+      "url": "https://feng.ifeng.com/c/8wnIaGHMvK1",
+      "pubDate": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5GaUx4am9xcVdKbTFfWDlCRF9ud1ctVE52b3YzVzMteVJWcVNWUjJuVktZVFlVMW8zTDRQMGhYMmxMSWxQbDU5RlJBcEc?oc=5",
+      "publishedAt": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "discoveredAt": "2026-10-31T05:28:20.274899+00:00",
+      "freshnessTier": "reference"
+    },
+    {
       "title": "规范共享单车停放秩序，让出行更舒心 - 京报网",
       "url": "https://xinwen.bjd.com.cn/content/s6ab870bcd5de4aef00f28cee.html",
       "pubDate": "Sun, 27 Sep 2026 07:00:00 GMT",
@@ -281,15 +290,6 @@
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9LS2xma1czSllQOHlGZmtFUzhTNlpPSGR6OUVIQUdfM0pxRFRyR2JiT2pvYThVZG5MWmJWeGtzNnRTdDJIY1VROVlwcTd5cWhLVmhCY2dKQUV5LUc4WFZ0ZkRwNllzYmJfZ0E?oc=5",
       "publishedAt": "Sat, 19 Sep 2026 07:00:00 GMT",
       "discoveredAt": "2026-10-29T02:48:51.087022+00:00",
-      "freshnessTier": "reference"
-    },
-    {
-      "title": "共享单车新国标来了！专治乱停、坏车、找不到丨政策翻译机 - 四川新闻",
-      "url": "https://sichuan.scol.com.cn/ggxw/202609/83325318.html",
-      "pubDate": "Wed, 16 Sep 2026 07:00:00 GMT",
-      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE15dWRYX1NJaEgyRGpoQ2Q5X3l3ZHVOb1hxaDY3bGJwNWJ4eDVhRzR6YUJIOXZyaUVfOFFzOTgtRUY4TXphMTRzcmxNbWNXVTNkenpzMUt6UExiQmZrMGY5SEU3aw?oc=5",
-      "publishedAt": "Wed, 16 Sep 2026 07:00:00 GMT",
-      "discoveredAt": "2026-10-30T23:43:41.218942+00:00",
       "freshnessTier": "reference"
     }
   ]
