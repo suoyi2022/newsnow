@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-13T01:01:19.405667+00:00",
-  "lastCheckedAt": "2026-11-13T01:01:19.405667+00:00",
+  "generatedAt": "2026-11-13T07:51:04.865262+00:00",
+  "lastCheckedAt": "2026-11-13T07:51:04.865262+00:00",
   "keywords": [
     "共享单车",
     "共享电单车",
@@ -47,7 +47,7 @@
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5XanBZcmt0dUtteHZoeW1SZzE3VkMxcnE2Sl9yaXQ2MFlucFBrSlZkT3NBTndjSmNNdTFOeFVJanNnQWtYV3pNR2Q2TGFtNGZjcldlOU1sZzR3VmZtZVFzcXlBMV9CMHlVWDVF?oc=5",
       "publishedAt": "Thu, 12 Nov 2026 02:27:11 GMT",
       "discoveredAt": "2026-11-12T11:46:55.245823+00:00",
-      "freshnessTier": "fresh"
+      "freshnessTier": "recent"
     },
     {
       "title": "尺寸难调节 异味太熏人 共享电单车头盔真闹心 - 中国新闻网",
@@ -56,7 +56,7 @@
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE03RGFRQlFtb05BdGFzeDJxRkJDTy00bWhod2F6MGNHYVZUa2poOFlFMDN6TDlLdVhpeGl6b0ZKU2wtSFhmOUJxTjgzMHcteDY4d19iVE1nQ3VlQUN1NG5vM28tb3V6REUyMUNJ?oc=5",
       "publishedAt": "Tue, 10 Nov 2026 07:22:54 GMT",
       "discoveredAt": "2026-11-10T11:42:45.934996+00:00",
-      "freshnessTier": "recent"
+      "freshnessTier": "reference"
     },
     {
       "title": "小伙竟扛着共享单车爬大罗山 有网友称其为硬核健身，有网友表示这一行为影响景区秩序 - 温州新闻",
@@ -65,7 +65,7 @@
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA1bUdEUEN1RmVrR0RQRUNfZUVTQm5MUTFhSXNiaUl5Ylo5Y3FFT0w0aWdiLVFkSWtNUnhtT01GSWF2aGw4dDFPYkJXY0UxbFhFQzZxYnpTS2dBRk9sdEprOW9MdlZJRzd2aWZMSQ?oc=5",
       "publishedAt": "Tue, 10 Nov 2026 01:19:05 GMT",
       "discoveredAt": "2026-11-10T03:28:34.993362+00:00",
-      "freshnessTier": "recent"
+      "freshnessTier": "reference"
     },
     {
       "title": "Z调查丨别脏了我的“头”——共享电动车头盔乱象调查 - 新蓝网",
@@ -77,12 +77,30 @@
       "freshnessTier": "reference"
     },
     {
+      "title": "东张西望报料｜中学生骑共享单车「双载冲斜路」 疑狂喝途人惹安全忧虑 - 东张+ - myTV SUPER",
+      "url": "https://www.mytvsuper.com/sc/scoopplus/scoop/reports/17941293660486/%E4%B8%9C%E5%BC%A0%E8%A5%BF%E6%9C%9B-%E4%B8%9C%E5%BC%A0%E8%A5%BF%E6%9C%9B%E6%8A%A5%E6%96%99-%E4%B8%AD%E5%AD%A6%E7%94%9F%E9%AA%91%E5%85%B1%E4%BA%AB%E5%8D%95%E8%BD%A6-%E5%8F%8C%E8%BD%BD%E5%86%B2%E6%96%9C%E8%B7%AF--%E7%96%91%E7%8B%82%E5%96%9D%E9%80%94%E4%BA%BA%E6%83%B9%E5%AE%89%E5%85%A8%E5%BF%A7%E8%99%91",
+      "pubDate": "Mon, 09 Nov 2026 01:02:00 GMT",
+      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiigRBVV95cUxOb2g4UlEydTYtcUZKbkZHSTZMZGtBRzBaNjNmTTlZTDZCWUlSX3NMaUFScl9JSThHM3I5Q2ZqUEVtYnFaaHhreG4wNVhIN1d2anNaSjRULU1QSHBhZUxfb2xlZnZISTFZWDFPZEtmNEJrcWVfRnlqWXRqZ0lfZXZoUTBIUDZ5YWI2UndiQ0dQRXRBSVFZYU9JbmhIS3JwRjZrVzRUS2ZycW5oeVFxS0hPUUZLVHNhLTJJZ1JJRnlqZEdDbHI5cGVZZm12T3RDNlQ5ZlRhUzFTX2dUVE5kT2lKbjZ0Vlg2V0xhMlNVejdOR2FyRndfY24zZFJCYWZHSmlFcUsxNzdzclF4TDdkc0VEeXZxREJRcEc4UGRkV1B6Q0gtZFdwcTdCYzBaLWQ0Ujl5YWplVGs3bmF0VUNEVzZBTUJCOWVDX0paRTRmWTZVdVNreFJGWE5Cd1ZHSlMxODNhNE5XN3A5TzM4ZTBvZVBYdWZRaEs4X3YxVXJqU1VSV0s4bXdxbmtTeTVzemlaZVk5QUU1Z2dqWHY3S0p5UG4ya2N6dUU1SE4zcWZnRGJjQ2JFN2NrcjQzODExaGh2bVVmdkpoVTkwQXR4eHpTY29vel9jdTU4VGJSRW1xd3ZsVm8zQzBjdEUzOU1xWUsxS2VCWmtKQjhFaXdDcW5Tb0l6QVNJb0gyZC1feGc?oc=5",
+      "publishedAt": "Mon, 09 Nov 2026 01:02:00 GMT",
+      "discoveredAt": "2026-11-13T07:51:04.865262+00:00",
+      "freshnessTier": "reference"
+    },
+    {
       "title": "不让换电柜成“定时炸弹” 花垣检察对电动自行车换电柜监管问题启动行政公益诉讼 - 湖南长安网",
       "url": "https://www.hnzf.gov.cn/content/646054/66/16396892.html",
       "pubDate": "Thu, 22 Oct 2026 02:45:41 GMT",
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBBU252bGt3RHNwSm1QTnhuVTkwOS1yekxyRVZqSk9kMU1wODg4alNSUlhsMHVRQUw2RVBsNE0zM2xDVnA1SzdmXzEzTG5TUThKZFowcFRBdVhoVnIzZXBtTGNCSUpQQQ?oc=5",
       "publishedAt": "Thu, 22 Oct 2026 02:45:41 GMT",
       "discoveredAt": "2026-10-22T12:21:53.686027+00:00",
+      "freshnessTier": "reference"
+    },
+    {
+      "title": "南站共享单车运维员：两分钟装车两分钟卸车 工作跟着列车时刻表走 - 北京市人民政府门户网站",
+      "url": "https://www.beijing.gov.cn/ywdt/gzdt/202610/t20261007_4891641.html",
+      "pubDate": "Wed, 07 Oct 2026 07:00:00 GMT",
+      "aggregatorUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBxYWtDTnFqMHpyN0tVSmFYZGFfczE1OVc3T05EaEduRE1lLVc4NVZnNWFSN0pYcUdkYzRYOUZUY2RuRlZHdGdvSEpTX3pfcmFEUXFkUHhfcjg3eE15OHhNTkt3d3pma3dWekQyUHVnM28xWDFh?oc=5",
+      "publishedAt": "Wed, 07 Oct 2026 07:00:00 GMT",
+      "discoveredAt": "2026-11-13T07:51:04.865262+00:00",
       "freshnessTier": "reference"
     },
     {
@@ -101,6 +119,15 @@
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4ybEk4ejMxSTdjenk4WEJySkNvQXN3RkRhUTRNSUF6cnBBT09VcV9iRnR5TVZQVHk3bFZMSUlkbkVOZ3hDLUxYalBPYWFtWDN5UmZKY2JBSURQYlowTmZONQ?oc=5",
       "publishedAt": "Thu, 23 Jul 2026 07:00:00 GMT",
       "discoveredAt": "2026-11-08T22:27:19.029859+00:00",
+      "freshnessTier": "reference"
+    },
+    {
+      "title": "共享电动自行车进北京 便利与秩序如何兼顾？ - 央视网",
+      "url": "https://news.cctv.com/2026/07/23/ARTIHl0OClpuKhxNIcPKCQjX260723.shtml",
+      "pubDate": "Thu, 23 Jul 2026 07:00:00 GMT",
+      "aggregatorUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvaldseklZRU1qM2E1SVZVNjRWaXhBbXNWNnhZOFBtTndGMW1wOHZndEZJSU9EcGpTSHZwdXZlZE9MMVNYdlZ5ME95cmVSU3FQVEYtWTVYZE9tRjdOUi1WZlBuU1JHRXVjMUV4Nzhjc2d2LXNpWndtWA?oc=5",
+      "publishedAt": "Thu, 23 Jul 2026 07:00:00 GMT",
+      "discoveredAt": "2026-11-13T07:51:04.865262+00:00",
       "freshnessTier": "reference"
     },
     {
@@ -185,15 +212,6 @@
       "freshnessTier": "reference"
     },
     {
-      "title": "桃浦镇政企合作推广“邮筒式”换电柜，居民算了一笔经济账 - 上观新闻",
-      "url": "https://www.shobserver.com/news/detail?id=1102284",
-      "pubDate": "Fri, 24 Apr 2026 07:00:00 GMT",
-      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5uVUhPSVg4LXpSdVZiMll1eU5JWkdEWk1QWEt4WXFybFdoSDFiWlVGU05STEhjeVZDS0xVR0V0V25RNncxcS02RFhtM1lhMmk0dUNjOUIwdXd2ajM2NlE?oc=5",
-      "publishedAt": "Fri, 24 Apr 2026 07:00:00 GMT",
-      "discoveredAt": "2026-11-07T23:55:22.259069+00:00",
-      "freshnessTier": "reference"
-    },
-    {
       "title": "跨年夜，江汉路周边这些路段禁停共享单车 - 武汉市人民政府",
       "url": "https://www.wuhan.gov.cn/hdjl/rdhy/202512/t20251230_2704673.shtml",
       "pubDate": "Tue, 30 Dec 2025 08:00:00 GMT",
@@ -239,6 +257,15 @@
       "freshnessTier": "reference"
     },
     {
+      "title": "共享单车运维人员：守护城市交通的“最后一公里” - 西部网",
+      "url": "http://m.cnwest.com/sxxw/a/2025/07/20/23159231.html",
+      "pubDate": "Sun, 20 Jul 2025 07:00:00 GMT",
+      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fTWM1NlIxSE1JXzNIa1lLZnhoN1dBMTdnUXBJYXNJT0hzdmJ6VjdNTG1aRDRUTklTRzdMSFllTUZvV3NrZG1xVkxtZG9VeGU4a1JhakUteFh6Y3NvNDU5TA?oc=5",
+      "publishedAt": "Sun, 20 Jul 2025 07:00:00 GMT",
+      "discoveredAt": "2026-11-13T07:51:04.865262+00:00",
+      "freshnessTier": "reference"
+    },
+    {
       "title": "全国首个！昆山电动两轮车换电全域落地 - 苏州新闻",
       "url": "https://news.2500sz.com/doc/2025/04/02/1143306.shtml",
       "pubDate": "Wed, 02 Apr 2025 07:00:00 GMT",
@@ -263,33 +290,6 @@
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5Fbk1JbVNDUmlQUEhGYlQ0Y3lIVm5NVG5LbzZYbkVRNW9oNDZlTHVGQlY0VzhaUFVuMkpNNHFkUkVHT3hNWTJSVm1NV0FqeTR2c290Si1iWFZCOVI0X1hNa2RoTkVvd2NpM0pWLVJSbUw?oc=5",
       "publishedAt": "Tue, 11 Feb 2025 08:00:00 GMT",
       "discoveredAt": "2026-11-10T19:40:00.336383+00:00",
-      "freshnessTier": "reference"
-    },
-    {
-      "title": "特区政府推出“设置街区电动电单车换电柜先导计划” – 澳门特别行政区政府入口网站 - 澳門特別行政區政府入口網站",
-      "url": "https://www.gov.mo/zh-hans/news/803086/",
-      "pubDate": "Mon, 20 Jan 2025 08:00:00 GMT",
-      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1OOFRyUHhFVWxlUVVFdXh5RUpscGZOdTlySGNSZFJzOWNrLUdRMjEtVU9MQjgtMm1hczh4RmJYV1E2elJ5a3pXaDNNd3l4WEZy?oc=5",
-      "publishedAt": "Mon, 20 Jan 2025 08:00:00 GMT",
-      "discoveredAt": "2026-11-10T19:40:00.336383+00:00",
-      "freshnessTier": "reference"
-    },
-    {
-      "title": "《成都市互联网租赁自行车管理服务实施意见》下月起实施成都明确不鼓励发展共享电单车_要闻 - 四川法治报",
-      "url": "https://www.scfzbs.com/tt/202412/82872834.html",
-      "pubDate": "Tue, 31 Dec 2024 08:00:00 GMT",
-      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9MQUtHVmlTV0lyalViXzJ5MWJtMEVuWS1RNmRYSXJTbE83V3g3UlJuTjB0VkMzWE5NVXRud2ljZXZTbi1VV3RITnFRd3kxcXE1UUxKZXR3Tlp4UQ?oc=5",
-      "publishedAt": "Tue, 31 Dec 2024 08:00:00 GMT",
-      "discoveredAt": "2026-11-11T07:09:02.676623+00:00",
-      "freshnessTier": "reference"
-    },
-    {
-      "title": "共享单车装上了“手套” - 人民日报",
-      "url": "http://paper.people.com.cn/rmrbhwb/pc/content/202412/11/content_30034175.html",
-      "pubDate": "Wed, 11 Dec 2024 08:00:00 GMT",
-      "aggregatorUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSlZEUC1QemM2WlBDYlVtZXlQMTdhdC1ZQ2RqejlHZVBEWWJQRG9INGdDTjh1a1lveWFrSHBNaUNZRWVhM1hWTktUVmYyQXhZbzU0SF9vcGdrQ0l1b3hrWHlEdjg3REFfVmZGb0ozdWJoWWpKb3dBeXhNYUVEc2VMd2FXbw?oc=5",
-      "publishedAt": "Wed, 11 Dec 2024 08:00:00 GMT",
-      "discoveredAt": "2026-11-11T07:09:02.676623+00:00",
       "freshnessTier": "reference"
     }
   ]
