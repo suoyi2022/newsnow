@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-15T01:16:48.548770+00:00",
-  "lastCheckedAt": "2026-11-15T01:16:48.548770+00:00",
+  "generatedAt": "2026-11-15T08:24:51.858685+00:00",
+  "lastCheckedAt": "2026-11-15T08:24:51.858685+00:00",
   "keywords": [
     "共享单车",
     "共享电单车",
@@ -29,7 +29,16 @@
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9hNWkwcWFIRlRCSkdzcEp4b3JnMHJxeGI0MjVTcHdPNnFVci1Qc3RKTG9YZ3RNQ0VMTXFRSTJMd3Bibk94OEtCN3I0T0VlcUZxN3lj?oc=5",
       "publishedAt": "Sat, 14 Nov 2026 04:45:37 GMT",
       "discoveredAt": "2026-11-14T10:12:48.774009+00:00",
-      "freshnessTier": "fresh"
+      "freshnessTier": "recent"
+    },
+    {
+      "title": "“不戴头盔就断电，可头盔又脏又破？”乐至共享电单车新规引发关注，交警回应：督促企业及时清洗，强化监管考核丨今日问政四川(952) - 四川新闻",
+      "url": "https://sichuan.scol.com.cn/ggxw/202611/83355925.html",
+      "pubDate": "Thu, 12 Nov 2026 11:08:41 GMT",
+      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1hbWRtaXhhWnQ3NW5HYlNNSEx6NE5VcmxpRGdaWjltSkI4TVlmNkxvdHZCX1NkNU9EaVFSOFpkR0tGeTFyZ21va2thbUpEMDN1Q0N6WXVfd1Z6Y2ZMS2JTZ1Jvdw?oc=5",
+      "publishedAt": "Thu, 12 Nov 2026 11:08:41 GMT",
+      "discoveredAt": "2026-11-15T08:24:51.858685+00:00",
+      "freshnessTier": "recent"
     },
     {
       "title": "为什么要修订《北京市互联网租赁自行车运营服务监督管理办法（试行）》？ - 北京市人民政府门户网站",
@@ -281,15 +290,6 @@
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSlZEUC1QemM2WlBDYlVtZXlQMTdhdC1ZQ2RqejlHZVBEWWJQRG9INGdDTjh1a1lveWFrSHBNaUNZRWVhM1hWTktUVmYyQXhZbzU0SF9vcGdrQ0l1b3hrWHlEdjg3REFfVmZGb0ozdWJoWWpKb3dBeXhNYUVEc2VMd2FXbw?oc=5",
       "publishedAt": "Wed, 11 Dec 2024 08:00:00 GMT",
       "discoveredAt": "2026-11-14T21:24:13.218089+00:00",
-      "freshnessTier": "reference"
-    },
-    {
-      "title": "车辆老旧使用不便 西安城市公共自行车该“骑”向何方？ - 西部网",
-      "url": "http://m.cnwest.com/sxxw/a/2024/12/03/22894316.html",
-      "pubDate": "Tue, 03 Dec 2024 08:00:00 GMT",
-      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9xMlo4RDBaWnBEZ0todk1XVkJ2M2ZBSWFHTUJ1al9aMlNqN29PRVd6UFEzYmFyQVBzX1owdXg4ek54QmxYbm5NbkpGOWZZbnAtaXhObGFrYmJNd01MRGNoTw?oc=5",
-      "publishedAt": "Tue, 03 Dec 2024 08:00:00 GMT",
-      "discoveredAt": "2026-11-15T01:16:48.548770+00:00",
       "freshnessTier": "reference"
     }
   ]
