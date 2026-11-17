@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-17T10:37:30.579868+00:00",
-  "lastCheckedAt": "2026-11-17T10:37:30.579868+00:00",
+  "generatedAt": "2026-11-17T19:46:17.232882+00:00",
+  "lastCheckedAt": "2026-11-17T19:46:17.232882+00:00",
   "keywords": [
     "共享单车",
     "共享电单车",
@@ -22,6 +22,23 @@
     "共享单车投诉"
   ],
   "items": [
+    {
+      "title": "30分钟15元，网友吐槽遭遇“共享单车刺客”，客服称是刚上新的变速自行车，配置更高 - Sohu",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRUROYWtOWUNHb2h0YXBrZEhjZFo1V2x3QllOcTJ5OGxRQ18zRFFobkJPS3dNRHhCQlJ3cms4NWtZbzR2QUpwbVAyYzhVMTRlYjlQQzJoVzlCTGhPREwwcWtQdWxfdmNEdDVOTE1CZzdiNzVWdl9WZ2tDVTIyQkNtcW1Ib1ZpSTZaOW16cw?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 11:27:45 GMT",
+      "publishedAt": "Tue, 17 Nov 2026 11:27:45 GMT",
+      "discoveredAt": "2026-11-17T19:46:17.232882+00:00",
+      "freshnessTier": "fresh"
+    },
+    {
+      "title": "单车刺客 网友扫到一辆起步15元的共享单车！客服回应 - 驱动之家",
+      "url": "https://news.mydrivers.com/1/1166/1166505.htm",
+      "pubDate": "Tue, 17 Nov 2026 11:14:00 GMT",
+      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8wOWtMZV9QakV4QmJkVXVLOHJMUHUyV2pZU09tWUxhM29yclY0eGs5TFgtOTl1dkpzX2hyNlBIVGZzS1MyZkxEWjB1VDV3UVNib2V0SGM2V0M?oc=5",
+      "publishedAt": "Tue, 17 Nov 2026 11:14:00 GMT",
+      "discoveredAt": "2026-11-17T19:46:17.232882+00:00",
+      "freshnessTier": "fresh"
+    },
     {
       "title": "绿色出行随心行！嘉善600辆公共自行车上线 - 杭州新闻",
       "url": "https://news.hangzhou.com.cn/zjnews/content/2026-11/17/content_9372576.htm",
@@ -47,7 +64,7 @@
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNV0pSanhPckRvWW9EZlhiRUt5TXEyb1pmb2lGeElVU2I4cEFfeGJzVXJBUFhtU1A2NkdEZWwzOFFGLWxyS082NjY2N0c1RTgxNTF2bHc0YjU0Szh1N1lZd1F1OGIzYXVvemtrTWFMb1p4RElzMnVleDY5U0J1TVZzUU9NRUhXWmI3UGQ4cg?oc=5",
       "publishedAt": "Mon, 16 Nov 2026 11:15:18 GMT",
       "discoveredAt": "2026-11-17T02:03:30.939107+00:00",
-      "freshnessTier": "fresh"
+      "freshnessTier": "recent"
     },
     {
       "title": "上海一男子早高峰将多辆共享单车扔至路中：酒后骑车磕碰，又被电动车别车，越想越气试图借此引民警处置 - 凤凰网",
@@ -118,15 +135,6 @@
       "pubDate": "Wed, 07 Oct 2026 07:00:00 GMT",
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBxYWtDTnFqMHpyN0tVSmFYZGFfczE1OVc3T05EaEduRE1lLVc4NVZnNWFSN0pYcUdkYzRYOUZUY2RuRlZHdGdvSEpTX3pfcmFEUXFkUHhfcjg3eE15OHhNTkt3d3pma3dWekQyUHVnM28xWDFh?oc=5",
       "publishedAt": "Wed, 07 Oct 2026 07:00:00 GMT",
-      "discoveredAt": "2026-11-17T10:37:30.579868+00:00",
-      "freshnessTier": "reference"
-    },
-    {
-      "title": "市场监管总局发布互联网租赁自行车国标 - 观点网",
-      "url": "https://www.guandian.cn/article/20260915/601685.html",
-      "pubDate": "Tue, 15 Sep 2026 07:00:00 GMT",
-      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9xa1k1TVU5bXdNTlRZM0phdnN0T0MwbkIya3Rad2JNV3hEU3JzMWcwTjhFRnhhNkZxVkNheVZoeXo4bmxYQS1rWWYxRHd3WERuWUlsVWxPQTIwZkpSWERzdURn?oc=5",
-      "publishedAt": "Tue, 15 Sep 2026 07:00:00 GMT",
       "discoveredAt": "2026-11-17T10:37:30.579868+00:00",
       "freshnessTier": "reference"
     },
@@ -230,6 +238,15 @@
       "freshnessTier": "reference"
     },
     {
+      "title": "南宁为共享电单车配备“专属管家” - 新华社广西分社",
+      "url": "http://www.gx.xinhuanet.com/20260516/d4acaa99cbd24ce7beacc851a88067c0/c.html",
+      "pubDate": "Sat, 16 May 2026 07:00:00 GMT",
+      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbmpnODFEWGNsVmppSDNWejNRR09iQjlNX01BcVoxZVJmYVQ2NWNxV0tReEtKZ1kySFZCb3lHTWJMb24yUlJPT2ZLLUFNQ1VoanUza1JVMWN0dU1VQ2pTc09YNk1FT0FOYm5JZHRGYXpoaGhSUW54SjZBbHUxbmF5TTZn?oc=5",
+      "publishedAt": "Sat, 16 May 2026 07:00:00 GMT",
+      "discoveredAt": "2026-11-17T19:46:17.232882+00:00",
+      "freshnessTier": "reference"
+    },
+    {
       "title": "《兰州市互联网租赁自行车管理办法》实施近半月 兰州街头变整齐了吗？ - 甘肃日报",
       "url": "https://gansu.gansudaily.com.cn/system/2026/05/13/031367107.shtml",
       "pubDate": "Wed, 13 May 2026 07:00:00 GMT",
@@ -272,24 +289,6 @@
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jYlMtWHdJNjFsaGV6SzdQUk1TRkNoaGtITDJUT0pUNExnTUctMXc4M0gwb0lXaUtwcnY0M2R6bjNSN2xCYkpaX0d0a0lKTTRDbm1nc0pDZks3UDdKaVFZRUJwMDczZ1hRUVJQSTlBTVhSVUZP?oc=5",
       "publishedAt": "Mon, 29 Dec 2025 08:00:00 GMT",
       "discoveredAt": "2026-11-07T09:12:56.891797+00:00",
-      "freshnessTier": "reference"
-    },
-    {
-      "title": "武汉为共享单车服务定等级，排名决定单车投放量 - 武汉市人民政府",
-      "url": "https://www.wuhan.gov.cn/sy/whyw/202511/t20251114_2678388.shtml",
-      "pubDate": "Fri, 14 Nov 2025 08:00:00 GMT",
-      "aggregatorUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1yQndsSUROMHRMcF9KRkJ5TDJ5Q0Z2MC11QUFHNWQwRkdVSFd2NVRIVlFXVjdNcnZQQnBSaHpMUGdJVjdiLTBMRkZkR092ZVF0VnVUN1FHYzREZzhaLTU1SG5EMXR4SDFZYXV4emdXb3Y?oc=5",
-      "publishedAt": "Fri, 14 Nov 2025 08:00:00 GMT",
-      "discoveredAt": "2026-11-07T09:12:56.891797+00:00",
-      "freshnessTier": "reference"
-    },
-    {
-      "title": "中国资环电动自行车换电示范项目在津启动 - 京报网",
-      "url": "https://news.bjd.com.cn/2025/10/28/11376091.shtml",
-      "pubDate": "Tue, 28 Oct 2025 07:00:00 GMT",
-      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE91MDhwOXhVNjB6MmFhZFo5Y0VfNUlsTjN2QU55RTRyRUhjLUNhbEY0SHpLeUEyNGRHWmVBN3l3MGRzWVFMWUlYSDc3dFZwazdBVGlvMU42dVhDOHlkU0E?oc=5",
-      "publishedAt": "Tue, 28 Oct 2025 07:00:00 GMT",
-      "discoveredAt": "2026-11-17T10:37:30.579868+00:00",
       "freshnessTier": "reference"
     }
   ]
