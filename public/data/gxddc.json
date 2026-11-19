@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-18T19:22:02.101347+00:00",
-  "lastCheckedAt": "2026-11-18T19:22:02.101347+00:00",
+  "generatedAt": "2026-11-19T01:27:11.680005+00:00",
+  "lastCheckedAt": "2026-11-19T01:27:11.680005+00:00",
   "keywords": [
     "共享单车",
     "共享电单车",
@@ -46,15 +46,6 @@
       "pubDate": "Wed, 18 Nov 2026 04:15:57 GMT",
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTHhTaTV0MGplNDBwNVFaZkRIN3hUb2xjOUVLamotRW1sSE1MUDdha2JnTTBxNXZRN1BmYlo0ay1tclNFLVZqOFQwd3Rva0dKb3hJdWxsLUlZTGUtSkNYOHBkc1MxTU5PN2JLaUxvTGV1SkpiUnRneTZfdjFNZ25HZ2NjN21KZjl6UVRVVw?oc=5",
       "publishedAt": "Wed, 18 Nov 2026 04:15:57 GMT",
-      "discoveredAt": "2026-11-18T10:39:50.414420+00:00",
-      "freshnessTier": "fresh"
-    },
-    {
-      "title": "女生穿长裙骑共享单车，裙摆卷进车轮。大哥拿剪刀帮忙脱困。 - 手机网易网",
-      "url": "https://www.163.com/v/video/VBB2M961B.html",
-      "pubDate": "Tue, 17 Nov 2026 23:21:04 GMT",
-      "aggregatorUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAtbnZUeEl6LThjMFdlTHlnR2x1QkFlWFVySlM1Y1pQSUpDTXdhS2RpeS14Y3lBU2VTZGZ2c3dXTnN4S01ZT2ZILWVfTXpYdU45X2hRMg?oc=5",
-      "publishedAt": "Tue, 17 Nov 2026 23:21:04 GMT",
       "discoveredAt": "2026-11-18T10:39:50.414420+00:00",
       "freshnessTier": "fresh"
     },
@@ -290,6 +281,15 @@
       "aggregatorUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1jYlMtWHdJNjFsaGV6SzdQUk1TRkNoaGtITDJUT0pUNExnTUctMXc4M0gwb0lXaUtwcnY0M2R6bjNSN2xCYkpaX0d0a0lKTTRDbm1nc0pDZks3UDdKaVFZRUJwMDczZ1hRUVJQSTlBTVhSVUZP?oc=5",
       "publishedAt": "Mon, 29 Dec 2025 08:00:00 GMT",
       "discoveredAt": "2026-11-07T09:12:56.891797+00:00",
+      "freshnessTier": "reference"
+    },
+    {
+      "title": "武汉为共享单车服务定等级，排名决定单车投放量 - 武汉市人民政府",
+      "url": "https://www.wuhan.gov.cn/sy/whyw/202511/t20251114_2678388.shtml",
+      "pubDate": "Fri, 14 Nov 2025 08:00:00 GMT",
+      "aggregatorUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1yQndsSUROMHRMcF9KRkJ5TDJ5Q0Z2MC11QUFHNWQwRkdVSFd2NVRIVlFXVjdNcnZQQnBSaHpMUGdJVjdiLTBMRkZkR092ZVF0VnVUN1FHYzREZzhaLTU1SG5EMXR4SDFZYXV4emdXb3Y?oc=5",
+      "publishedAt": "Fri, 14 Nov 2025 08:00:00 GMT",
+      "discoveredAt": "2026-11-19T01:27:11.680005+00:00",
       "freshnessTier": "reference"
     }
   ]
